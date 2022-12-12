@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/sureshdangol/FunctionalRockPaperScissors/src/main/scala/dangol/rockpaperscissors/RockPaperScissorsCmdGame.scala:80:39: ':' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def getInitialValuesFromConfig(fname){[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sureshdangol/FunctionalRockPaperScissors/src/main/scala/dangol/rockpaperscissors/RockPaperScissorsCmdGame.scala:84:1: identifier expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
