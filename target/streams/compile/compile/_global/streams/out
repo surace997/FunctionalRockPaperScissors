@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/sureshdangol/FunctionalRockPaperScissors/src/main/scala/dangol/rockpaperscissors/RockPaperScissorsCmdGame.scala:80:39: ':' expected but ')' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  def getInitialValuesFromConfig(fname){[0m
-[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/sureshdangol/FunctionalRockPaperScissors/src/main/scala/dangol/rockpaperscissors/RockPaperScissorsCmdGame.scala:84:1: identifier expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m}[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/sureshdangol/FunctionalRockPaperScissors/src/main/scala/dangol/rockpaperscissors/RockPaperScissorsCmdGame.scala:8:7: not a valid main method for dangol.rockpaperscissors.RockPaperScissorsCmdGame,[0m
+[0m[[0m[33mwarn[0m] [0m[0m  because main methods must have the exact signature `(Array[String]): Unit`, though Scala runners will forgive a non-Unit result.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  To define an entry point, please define the main method as:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def main(args: Array[String]): Unit[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def main(args: Array[String]) = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

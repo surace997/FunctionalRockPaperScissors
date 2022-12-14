@@ -6,6 +6,8 @@ import scala.io.StdIn.readLine
 
 object RockPaperScissorsCmdGame {
   def main(args: Array[String]) = {
+    ProjectParsing.go
+    /*
     greeting
     print("Enter 1 for live game play. Enter 2 for automatic tournament season: ")
     readLine() match {
@@ -14,6 +16,8 @@ object RockPaperScissorsCmdGame {
       case _ => println("Response not understood.")
     }
     goodbye
+
+     */
   }
   private def greeting = println("Welcome to Rock-Paper-Scissors")
   private def goodbye = println("Thanks for playing Rock-Paper-Scissors")
@@ -64,10 +68,11 @@ object RockPaperScissorsCmdGame {
     )
     resultScore(players,tournaments)
   }
+
   private def handleTournamentSeasonWithConfigFile = {
     val fname = "put file name here"
-    val (players, tournaments) = getInitialValuesFromConfig(fname)
-    resultScore(players,tournaments)
+    //val (tournaments) = getInitialValuesFromConfig(fname)
+    //resultScore(tournaments)
 
   }
   def resultScore(players: List[RPSHistoryBasedPlayer], tournaments: List[IndividualMatchRoundRobinTournament]) = {
@@ -77,8 +82,6 @@ object RockPaperScissorsCmdGame {
       println(s"Player: ${r._1.playerInfo}   Points: ${r._2}")
   }
 
-  def getInitialValuesFromConfig(fname){
-    
+  //def getInitialValuesFromConfig(fname:String)
 
-  }
 }
